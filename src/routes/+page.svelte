@@ -21,7 +21,7 @@
   let selected = map_infos[0];
 </script>
 
-<select bind:value={selected}>
+<select bind:value={selected} size={map_infos.length}>
   {#each map_infos as map_info}
     <option value={map_info}>
       {map_info.text}
@@ -51,6 +51,6 @@
   }
 
   .top_image {
-    filter: drop-shadow(0 0 10px blue);
+    filter: drop-shadow(0 0 10px white);
   }
 </style>
