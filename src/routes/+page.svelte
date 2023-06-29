@@ -35,12 +35,12 @@
       <img
         class="top_image"
         src="/{file_name}.webp"
-        alt="fuck u"
+        alt="super cool map"
         height="512"
         width="512"
       />
     {:else}
-      <img src="/{file_name}.webp" alt="fuck u" height="512" width="512" />
+      <img src="/{file_name}.webp" alt="super cool map" height="512" width="512" />
     {/if}
   {/each}
 </div>
